@@ -19,7 +19,6 @@
  .header .navigation a{
      padding-top: 50px;
     text-align:center ;
-    background-color: red;
 }
 .header .col-sm-6{
     display: flex;
