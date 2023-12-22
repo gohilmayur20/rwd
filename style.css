@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins','sans-serif'; */
+}
 .main-section{
     background-image: url(images/heroSectionBackground.png);
     background-repeat: no-repeat;
@@ -5,7 +11,7 @@
      height: 420px;
 }
 
-.main-section .header a{
+.main-section .header .get_app{
     text-decoration: none;
     color: white;
     padding-top: 15px;
@@ -16,12 +22,9 @@
     display: flex;
     justify-content: space-between;
 }
- .header .navigation a{
-     padding-top: 50px;
-    text-align:center ;
-}
-.header .col-sm-6{
+ .navigation{
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
 }
 /* Example CSS - You may need to adjust styles */
@@ -75,3 +78,48 @@
     margin-top: 20px;
   }
   
+=======
+    margin-right: 70px;
+}
+  .navigation .nav-anchor{ 
+     justify-content: center;
+     align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin: 25px 20px 5px 5px;
+letter-spacing: 0.60px;
+   font-weight:400;
+} 
+.container .row .col-md-6 .card{
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.container .row .col-md-6  .card img{
+    height: 170px;
+    object-fit: cover;
+}
+
+.main-section .group_zomatologo{
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+      
+}
+.main-section .group_zomatologo .zomato_logo{
+    margin: 0 auto;
+}
+.main-section .group_zomatologo .zomato_logo img{
+    width:300px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.main-section .group_zomatologo .header_text{
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    
+}
+>>>>>>> dadd0470447c01fc09286877289dbc7661d37e81
